@@ -61,6 +61,16 @@ getSuspensionDetail      : 	Retrieve information related to service suspensions
 unsuspend                : 	Clear abuse issue identified by record_id and unsuspend the VPS
 getRateLimitStatus       : 	This call allows monitoring this matter
 ```
+## config
+``` json
+{
+        "VEID": "",
+        "API_KEY_BWH": "",
+        "MAIL_HOST": "",
+        "MAIL_USER": "",
+        "MAIL_PASS": ""
+}
+```
 
 ## use
 ``` bash

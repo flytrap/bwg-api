@@ -62,6 +62,20 @@ unsuspend                : 	取消暂停
 getRateLimitStatus       : 	获取使用率状态
 ```
 
+## 配置文件
+
+默认路径: ~/.config/bwg/bwgrc(~/.bwgrc)
+
+``` json
+{
+        "VEID": "",
+        "API_KEY_BWH": "",
+        "MAIL_HOST": "邮箱host",
+        "MAIL_USER": "发信邮箱",
+        "MAIL_PASS": "密码"
+}
+```
+
 ## 使用
 ``` bash
 python bwg_api.py -h 
