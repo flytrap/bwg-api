@@ -4,6 +4,7 @@
 ## 帮助
 
 ```
+-> python -m bwg.bwg_api -h
 -> python bwg_api.py -h
 Options:
   -h, --help            show this help message and exit
