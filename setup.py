@@ -7,7 +7,7 @@ from bwg.bwg_api import BWG
 
 setup(
     name='bwg-api',
-    version='0.1.0',
+    version='0.1.1',
     description='BWG API',
     long_description=BWG.__doc__,
     author='flytrap',
@@ -15,7 +15,7 @@ setup(
     url='https://github.com/flytrap/bwg-api',
     packages=['bwg'],
     install_requires=[
-        "requests==2.19.1",
+        'requests>=2.20.0',
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
