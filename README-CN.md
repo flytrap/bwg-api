@@ -79,6 +79,7 @@ getRateLimitStatus       : 	获取使用率状态
 
 ## 使用
 ``` bash
+python -m bwg.bwg_api -h
 python bwg_api.py -h 
 python bwg_api.py -c  方法名
 python bwg_api.py -m network -e flytrap@mail.com -r 50%  # 检查流量使用情况，超过50则发邮件 
@@ -99,4 +100,4 @@ func()
 
 欢迎您提出改进建议
 
-[中文文档](./README.md)
+[英文文档](./README.md)

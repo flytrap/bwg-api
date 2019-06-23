@@ -75,6 +75,7 @@ getRateLimitStatus       : 	This call allows monitoring this matter
 
 ## use
 ``` bash
+python -m bwg.bwg_api -h
 python bwg_api.py -h 
 python bwg_api.py -c  function
 python bwg_api.py -m network -e flytrap@mail.com -r 50%  # check 
